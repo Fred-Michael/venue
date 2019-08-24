@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vivamus</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=content-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<style type="text/css">
+		.jumbotron {
+			height: 650px;
+			background: url('1.jpg') no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			border-radius: 0px;
+			background-size: cover;
+			z-index: -999999;
+		}
+		.navbar-nav li.nav-item > .text-white{
+			text-decoration: none;
+			color: #fff;
+		}
+		div#comment {
+			background: url('1_cpy.jpg') no-repeat center center;
+			height: 300px;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		.list {
+			list-style-type: none;
+		}
+		.list li:before {
+			content: '>';
+			margin-left: -20%;
+		}
+		/*h1 {
+			font-size: 5rem;
+			letter-spacing: 2.5rem;
+		}*/
+		button.text-dark {
+			border-radius: 0;
+			display: block;
+		}
+		#sp  {
+			font-family: 'Pacifico', cursive;
+		}
+		p.line {
+			content: " ";
+			width: 15%;
+		}
+		div.w-25 {
+			position: relative;
+			z-index: auto;
+		}
+		button.btn {
+			position: relative;
+			z-index: 1;
+		}
+		.imgs {
+			border: 1px solid #fff;
+		}
+		@media screen and (max-width: 768px) {
+			ul.navbar-nav li.nav-item a {
+				text-align: center;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- Intro Section -->
+	<div class="jumbotron">
+		<div class="container-fluid">
+			<div class="row mx-auto">
+				<div class="col-12 text-center text-white">
+					<h2 class="mt-n3 mb-4" id="sp">Venue</h2>
+				</div>
+			</div>
+			<div class="row mx-auto mb-2">
+				<div class="col-sm-12">
+					<nav class="navbar navbar-expand-sm navbar-dark">
+						<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navigation">
+							<ul class="navbar-nav mx-auto">
+								<li class="nav-item active mr-3 mb-2 text-center ml-3">
+									<a href="void:javascript(0);" style="color: #f03;">Home</a>
+								</li>
+								<li class="nav-item mr-3 mb-2 text-center ml-3">
+									<a href="void:javascript(0);" class="text-white">About</a>
+								</li>
+								<li class="nav-item mr-3 mb-2 text-center ml-3">
+									<a href="void:javascript(0);" class="text-white">Gallery</a>
+								</li>
+								<li class="nav-item mr-3 mb-2 text-center ml-3">
+									<a href="void:javascript(0);" class="text-white">Pages</a>
+								</li>
+								<li class="nav-item mb-2 text-center">
+									<a href="void:javascript(0);" class="text-white">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<hr style="background-color: #899; width: 78%;" class="mt-0">
+				</div>
+				<hr>
+			</div>
+			<div class="row mx-auto">
+				<div class="col-sm-12 text-center text-white">
+					<h1 id="viva" class="text-uppercase font-weight-bold mt-3">vivamus</h1>
+				</div>
+			</div>
+			<div class="row w-25 mx-auto">
+				<div id="lorem" class="col-12 text-center text-white mt-5 border p-5">
+					<p class="text-uppercase lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+			<button class="btn btn-light border-radius-0 text-dark text-uppercase mx-auto mt-n4"><span class="small">read more</span></button>
+		</div>
+	</div>
+	<!-- Welcome Section -->
+	<div class="container-fluid p-4 mb-2">
+		<div class="row mx-auto" style="width: 69%;">
+			<div class="mb-5 col-12 text-center">
+				<h2 id="sp">Welcome</h2>
+			</div>
+			<div class="col-sm-8 text-muted">
+				<img src="4.jpg" height="300" class="float-left clearfix mr-4">
+				<div>
+					<p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p class="small">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p class="small">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+			</div>
+			<div class="col-sm-4 text-muted" style="text-align: left;">
+				<div style="background-color: #eee;" class="px-4 py-2">
+					<p class="text-uppercase font-weight-bold text-danger">our advantages</p>
+					<ul class="small list">
+						<li class="mb-2">&nbsp;&nbsp;Ipsum dolor sit amet</li>
+						<li class="mb-2">&nbsp;&nbsp;Consectetur adipisicing elit</li>
+						<li class="mb-2">&nbsp;&nbsp;Sed do eiusmod tempor</li>
+						<li class="mb-2">&nbsp;&nbsp;Incididunt ut labore</li>
+						<li class="mb-2">&nbsp;&nbsp;Dolore magna aliqua</li>
+						<li class="mb-2">&nbsp;&nbsp;Ut enim ad minim veniam</li>
+						<li class="mb-2">&nbsp;&nbsp;Duis aute irure dolor</li>
+						<li>&nbsp;&nbsp;Excepteur sint occaecat</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Services Section -->
+	<div class="container-fluid" style="background-color: #eee;">
+		<div class="row mx-auto p-5" style="width: 75%;">
+			<div class="col-sm-12 mb-5 text-center">
+				<h2 id="sp">Services</h2>
+			</div>
+			<div class="col-sm-6">
+				<div class="row text-center">
+					<div class="col-sm-12">
+						<div class="row mb-5">
+							<div class="col-sm-4 col-6">
+								<div class="p-3 mx-auto" style="background-color: #fff; border-radius: 50% 50% 50% 50%; height: 60px; width: 60px; color: red;">
+									<img src="utilities/font_awesome/svgs/solid/anchor.svg" height="28" width="28">
+								</div>
+								<p class="small mt-2 text-center">NULAM MAXIMUS</p>
+							</div>
+							<div class="col-sm-4 col-6">
+								<div class="p-3 mx-auto" style="background-color: #fff; border-radius: 50% 50% 50% 50%; height: 60px; width: 60px; color: red;">
+									<img src="utilities/font_awesome/svgs/solid/cocktail.svg" height="28" width="28">
+								</div>
+								<p class="small mt-2">DONET FEGUIAT</p>
+							</div>
+							<div class="col-sm-4 col-6">
+								<div class="p-3 mx-auto" style="background-color: #fff; border-radius: 50% 50% 50% 50%; height: 60px; width: 60px; color: red;">
+									<img src="utilities/font_awesome/svgs/solid/anchor.svg" height="28" width="28">
+								</div>
+								<p class="small mt-2">LOREM IPSUM</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-4 col-6">
+								<div class="p-3 mx-auto" style="background-color: #fff; border-radius: 50% 50% 50% 50%; height: 60px; width: 60px; color: red;">
+									<img src="utilities/font_awesome/svgs/solid/anchor.svg" height="28" width="28">
+								</div>
+								<p class="small mt-2">DOLORE MAGNA</p>
+							</div>
+							<div class="col-sm-4 col-6">
+								<div class="p-3 mx-auto" style="background-color: #fff; border-radius: 50% 50% 50% 50%; height: 60px; width: 60px; color: red;">
+									<img src="utilities/font_awesome/svgs/solid/anchor.svg" height="28" width="28">
+								</div>
+								<p class="small mt-2">UGIAT NULLA</p>
+							</div>
+							<div class="col-sm-4 col-6">
+								<div class="p-3 mx-auto" style="background-color: #fff; border-radius: 50% 50% 50% 50%; height: 60px; width: 60px; color: red;">
+									<img src="utilities/font_awesome/svgs/solid/anchor.svg" height="28" width="28">
+								</div>
+								<p class="small mt-2">VOLUPTATE VELIT</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<p class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p class="text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			</div>
+		</div>
+	</div>
+	<!-- Comment Section -->
+	<div class="container-fluid">
+		<div class="row" id="comment">
+			<div id="testimonies" class="carousel slide text-white" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#testimonies" data-slide-to="0" class="active"></li>
+					<li data-target="#testimonies" data-slide-to="1"></li>
+				</ol>
+				<div class="carousel-inner mx-auto" style="margin-top: 5%; width: 75%;">
+					<div class="carousel-item active text-center">
+						<h3><i class="fa fa-quote-right"></i></h3>
+						<p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						</p>
+						<p class="small"><span class="font-weight-bold">Mr Lorem</span> - FOUNDER</p>
+					</div>
+					<div class="carousel-item text-center">
+						<h3><i class="fa fa-quote-right"></i></h3>
+						<p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						</p>
+						<p class="small"><span class="font-weight-bold">Mrs Lorem</span> - FOUNDER</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Events Section -->
+	<div class="container-fluid">
+		<div class="row mx-auto p-5">
+			<!-- Events code goes here -->
+			<div class="col-sm-12 mb-5 text-center">
+				<h2 id="sp">Events</h2>
+			</div>
+			<div class="col-12 text-center">
+				<!-- Images go here -->
+			</div>
+		</div>
+	</div>
+	<!-- Footer Section -->
+	<div class="container-fluid bg-dark text-white">
+		<div class="row p-5 mb-4">
+			<div class="row mx-auto" style="width: 992px;">
+				<div class="col-sm-3 mb-4">
+					<h4 id="sp">Venue</h4>
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-wifi"></i>
+					<i class="fa fa-vk"></i>
+				</div>
+				<div class="col-sm-3">
+					<p class="small font-weight-bold">CONTACT INFO</p>
+					<p class="line mt-n2" style="border-bottom: 2px solid #fff; border-color: #f03; width: 27%;"></p>
+					<p class="small"><span class="text-muted">Call Us</span><br><span class="font-weight-bold">+123 45 677</span></p>
+					<p class="small text-muted">My company, 875 Jewel Road<br>8907 Russia</p>
+				</div>
+				<div class="col-sm-3">
+					<p class="small font-weight-bold">NAVIGATION</p>
+					<p class="line mt-n2" style="border-bottom: 2px solid #fff; border-color: #f03;"></p>
+					<ul class="small list">
+						<li class="mb-1">&nbsp;&nbsp;About</li>
+						<li class="mb-1">&nbsp;&nbsp;Gallery</li>
+						<li class="mb-1">&nbsp;&nbsp;ShortCode</li>
+						<li class="mb-1">&nbsp;&nbsp;Icons</li>
+						<li class="mb-1">&nbsp;&nbsp;Contact</li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<p class="small font-weight-bold">RECENT POSTS</p>
+					<p class="line mt-n2" style="border-bottom: 2px solid #fff; border-color: #f03; width: 22%;"></p>
+					<div class="row">
+						<div class="col-12 mb-5">
+							<div class="float-left mr-5" style="height: 20px; width: 25px;">
+								<img class="imgs" src="6.jpg" height="67" width="72">
+							</div>
+							<div class="float-left" style="height: 20px; width: 25px;">
+								<img class="imgs" src="2.jpg" height="67" width="72">
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="float-left mr-5" style="height: 20px; width: 25px;">
+								<img class="imgs" src="7.jpg" height="67" width="72">
+							</div>
+							<div class="float-left" style="height: 20px; width: 25px;">
+								<img class="imgs" src="3.jpg" height="67" width="72">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row p-3" style="background-color: #000;">
+			<div class="col-12 text-center">
+				<p class="small mb-0">&copy; 2017 Venue. All rights reserved | Design by <a href="void:javascript(0);"><span style="color: #f03;">w3layouts</span></a></p>
+			</div>
+		</div>
+	</div>
+
+<script src="../utilities/Bootstrap_4.3.1/jquery.js"></script>
+<script type="text/javascript">
+	//jQuery scripts go here
+	$(document).ready(function() {
+		
+	});
+</script>
+</body>
+</html>
