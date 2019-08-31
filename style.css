@@ -1,0 +1,158 @@
+.jumbotron {
+	height: 650px;
+	background: url('../images/1.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	border-radius: 0px;
+	background-size: cover;
+	z-index: -999999;
+}
+.navbar-nav li.nav-item > .text-white{
+	text-decoration: none;
+	color: #fff;
+}
+div#comment {
+	background: url('../images/1_cpy.jpg') no-repeat center center;
+	height: 300px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+div#lorem {
+	width: 25%;
+}
+.list {
+	list-style-type: none;
+}
+.list li:before {
+	content: '>';
+	margin-left: -20%;
+}
+button.text-dark {
+	border-radius: 0;
+	display: block;
+}
+.sp  {
+	font-family: 'Pacifico', cursive;
+}
+p.line {
+	content: " ";
+	width: 15%;
+}
+div.w-25 {
+	position: relative;
+	z-index: auto;
+	width: 100%;
+}
+div.w-25 p {
+	font-size: 100%;
+	text-align: center;
+}
+button.btn {
+	position: relative;
+	z-index: 1;
+}
+.imgs {
+	border: 1px solid #fff;
+}
+#div {
+	position: relative;
+}
+div#welcome_section, div#services_section {
+	width: 75%;
+}
+.green {
+	color: #8ce632;
+}
+.flame {
+	color: #e67732;
+}
+.icons {
+	position: absolute;
+	top: 10%;
+	left: 62%;
+	background-color: #e67732;
+	transform: rotate(90deg);
+}
+.capture2 {
+	position: absolute;
+	top: 13%;
+	left: 62%;
+	width: 19%;
+	background-color: #f3f3f3;
+	border-bottom: 2px solid #8ce632;
+}
+.capture {
+	position: absolute;
+	top: 15%;
+	left: 19%;
+	width: 19%;
+	background-color: #f3f3f3;
+	border-bottom: 2px solid #e67732;
+}
+.icons2 {
+	position: absolute;
+	top: 10%;
+	left: 32%;
+	background-color: #e67732;
+	transform: rotate(90deg);
+}
+.wix {
+	transform: rotate(-90deg);
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+	img.events {
+		width: 30%;
+	}
+	div#lorem {
+		width: 30%;
+	}
+	h1#viva {
+		font-size: 3.3em;
+		letter-spacing: 0.7em;
+	}
+}
+@media screen and (max-width: 425px) {
+	img.events {
+		width: 70%;
+		height: 200px;
+	}
+	hr.mt-0 {
+		display: none;
+	}
+	div#lorem {
+		width: 75%;
+	}
+	div#welcome_section, div#services_section {
+		width: 100%;
+	}
+	button.btn span.small {
+		font-size: .53em;
+	}
+	h1#viva {
+		font-size: xx-large;
+		letter-spacing: 0.5em;
+	}
+}
+@media screen and (max-width: 768px) {
+	img.events {
+		width: 70%;
+		margin-bottom: 4%;
+	}
+	.icons, .capture, .icons2, .capture2 {
+		display: none;
+	}
+	ul.navbar-nav li.nav-item a {
+		text-align: center;
+	}
+}
+@media screen and (width: 1024px) {
+	.icons {
+		left: 60%;
+	}
+	.capture {
+		left: 23%;
+	}
+}
